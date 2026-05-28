@@ -299,7 +299,7 @@ df = pd.DataFrame(records)
 
 # ── Save ───────────────────────────────────────────────────────────────────────
 
-output_path = "employee_survey_data.csv"
+output_path = "/Users/nicole.burke/Downloads/employee_sentiment_analysis/employee_survey_data.csv"
 df.to_csv(output_path, index=False)
 
 print(f"✓ Saved {len(df)} rows to {output_path}")

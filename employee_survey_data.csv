@@ -1,0 +1,301 @@
+employee_id,job_level,department,start_date,survey_date,tenure_years,comment,_ground_truth_sentiment,_ground_truth_theme
+EMP0001,IC1,Product,2023-04-18,2024-11-01,1.5,My manager is a genuine advocate for my development. She proactively nominated me for a high-visibility project and the growth has been real.,positive,management_leadership+growth_development
+EMP0002,IC2,Legal,2021-01-12,2024-11-01,3.8,"My manager is fine and my comp is competitive, but I'm not inspired by the direction. Neither strongly positive nor negative, honestly.",neutral,management_leadership+compensation_benefits
+EMP0003,IC1,Marketing,2021-09-09,2024-11-01,3.1,Leadership has been transparent about the challenges we're facing and I appreciate the honesty.,positive,management_leadership
+EMP0004,M3,Marketing,2018-01-31,2024-11-01,6.8,We have strong rituals for alignment and rarely duplicate work or step on each other.,positive,team_collaboration
+EMP0005,IC5,People & HR,2021-12-29,2024-11-01,2.8,This is the most inclusive team I've been on. I feel like I can bring my whole self to work.,positive,culture_inclusion
+EMP0006,IC2,Finance,2022-05-01,2024-11-01,2.5,The culture has shifted noticeably since the last round of layoffs. Trust is low.,negative,culture_inclusion
+EMP0007,IC2,Customer Success,2022-03-22,2024-11-01,2.6,There's a clear leveling framework and I always know what I need to demonstrate to advance.,positive,growth_development
+EMP0008,IC4,People & HR,2019-05-30,2024-11-01,5.4,The flexible work policy is a genuine differentiator. I can structure my day around my life.,positive,work_life_balance
+EMP0009,IC2,Marketing,2022-03-19,2024-11-01,2.6,I've never felt pressure to answer messages outside of work hours. The team respects boundaries.,positive,work_life_balance
+EMP0010,M1,People & HR,2021-03-13,2024-11-01,3.6,"The pace here doesn't allow time for learning. Everything is execution, always.",negative,growth_development
+EMP0011,IC3,Product,2020-11-09,2024-11-01,4.0,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0012,IC4,Sales,2019-07-09,2024-11-01,5.3,"The company walks the walk on DEI — it shows up in hiring, promotions, and how leaders behave.",positive,culture_inclusion
+EMP0013,M1,Engineering,2020-02-15,2024-11-01,4.7,I have a lot of trust in the direction leadership is taking. Decisions feel thoughtful rather than reactive.,positive,management_leadership
+EMP0014,IC4,People & HR,2019-09-07,2024-11-01,5.2,I've grown in my role but I'm starting to wonder if there's a ceiling.,neutral,growth_development
+EMP0015,IC5,Design,2022-01-31,2024-11-01,2.8,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0016,M2,Finance,2019-11-07,2024-11-01,5.0,Leadership has been transparent about the challenges we're facing and I appreciate the honesty.,positive,management_leadership
+EMP0017,IC1,Product,2024-03-22,2024-11-01,0.6,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0018,M2,Product,2019-09-28,2024-11-01,5.1,"PTO exists in theory, but the actual workload makes it impossible to disconnect.",negative,work_life_balance
+EMP0019,IC2,Engineering,2020-07-09,2024-11-01,4.3,There are no real mentorship opportunities here. You're expected to figure it out on your own.,negative,growth_development
+EMP0020,IC5,Product,2020-06-05,2024-11-01,4.4,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0021,IC3,Legal,2021-01-02,2024-11-01,3.8,I've raised concerns about my workload three times and nothing has changed.,negative,work_life_balance
+EMP0022,IC4,Legal,2022-07-02,2024-11-01,2.3,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0023,M1,Engineering,2019-08-20,2024-11-01,5.2,I've never felt pressure to answer messages outside of work hours. The team respects boundaries.,positive,work_life_balance
+EMP0024,IC4,Engineering,2020-03-06,2024-11-01,4.7,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0025,IC3,Product,2023-02-18,2024-11-01,1.7,Collaboration is performative. People nod in meetings and then do whatever they planned anyway.,negative,team_collaboration
+EMP0026,M2,Legal,2020-09-10,2024-11-01,4.1,The leveling framework is inconsistently applied and it seems more about politics than performance.,negative,growth_development
+EMP0027,M2,Sales,2018-02-11,2024-11-01,6.7,Direction changes constantly with no explanation. It's impossible to prioritize anything.,negative,management_leadership
+EMP0028,IC4,Product,2022-02-05,2024-11-01,2.7,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0029,IC4,Marketing,2023-04-27,2024-11-01,1.5,My team is genuinely one of the most collaborative and supportive I've ever worked with.,positive,team_collaboration
+EMP0030,M1,Engineering,2021-12-22,2024-11-01,2.9,The pay process is completely opaque. I have no idea how decisions get made.,negative,compensation_benefits
+EMP0031,IC3,Legal,2020-08-25,2024-11-01,4.2,Raises exist but they're modest. Meaningful jumps only seem to happen with a promotion.,neutral,compensation_benefits
+EMP0032,IC2,Marketing,2023-10-20,2024-11-01,1.0,My comp hasn't kept up with inflation and conversations about it go nowhere.,negative,compensation_benefits
+EMP0033,IC2,Engineering,2024-01-02,2024-11-01,0.8,There's a stated commitment to inclusion but I haven't seen it translate into structural changes.,neutral,culture_inclusion
+EMP0034,IC4,Marketing,2020-05-08,2024-11-01,4.5,The policy is good on paper but individual managers enforce it very differently.,neutral,work_life_balance
+EMP0035,IC2,Marketing,2021-11-10,2024-11-01,3.0,There's a persistent pattern of underrepresented employees leaving and leadership doesn't address it.,negative,culture_inclusion
+EMP0036,IC1,Legal,2024-04-24,2024-11-01,0.5,There's internal competition rather than cooperation. It doesn't serve us well.,negative,team_collaboration
+EMP0037,M3,Customer Success,2020-03-10,2024-11-01,4.6,There's internal competition rather than cooperation. It doesn't serve us well.,negative,team_collaboration
+EMP0038,M2,Engineering,2020-05-23,2024-11-01,4.4,Staffing shortages mean the remaining team is spread impossibly thin. Burnout is rampant.,negative,work_life_balance
+EMP0039,M3,Legal,2020-07-08,2024-11-01,4.3,Psychological safety is high on my team. We have real debates and nobody shuts people down.,positive,culture_inclusion
+EMP0040,IC1,Legal,2023-01-29,2024-11-01,1.8,My manager gives me autonomy while still being available when I need support. That balance is hard to find.,positive,management_leadership
+EMP0041,IC1,Design,2021-12-27,2024-11-01,2.8,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0042,IC4,Product,2021-02-04,2024-11-01,3.7,People here celebrate each other's wins publicly and often. It creates real positive energy.,positive,team_collaboration
+EMP0043,IC2,Engineering,2021-12-29,2024-11-01,2.8,I'm regularly pinged after 9pm by leadership and there's an implied expectation to respond immediately.,negative,work_life_balance
+EMP0044,M1,Marketing,2021-01-13,2024-11-01,3.8,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0045,M1,Customer Success,2021-12-19,2024-11-01,2.9,My manager is one of the best I've had — always clear on expectations and genuinely invested in my growth.,positive,management_leadership
+EMP0046,IC4,Product,2020-07-09,2024-11-01,4.3,"The company walks the walk on DEI — it shows up in hiring, promotions, and how leaders behave.",positive,culture_inclusion
+EMP0047,IC5,People & HR,2021-12-24,2024-11-01,2.9,Work-life balance depends entirely on your team and what quarter it is. Officially it's fine.,neutral,work_life_balance
+EMP0048,IC5,Legal,2019-02-23,2024-11-01,5.7,The flexible work policy is a genuine differentiator. I can structure my day around my life.,positive,work_life_balance
+EMP0049,IC3,Product,2022-04-29,2024-11-01,2.5,I've never felt pressure to answer messages outside of work hours. The team respects boundaries.,positive,work_life_balance
+EMP0050,M3,Sales,2019-12-24,2024-11-01,4.9,The culture has shifted noticeably since the last round of layoffs. Trust is low.,negative,culture_inclusion
+EMP0051,IC5,Finance,2022-08-14,2024-11-01,2.2,"I get to work on hard, novel problems every week. My skills are growing faster here than anywhere else.",positive,growth_development
+EMP0052,M3,Design,2018-04-18,2024-11-01,6.5,There's a persistent pattern of underrepresented employees leaving and leadership doesn't address it.,negative,culture_inclusion
+EMP0053,IC1,Design,2022-10-07,2024-11-01,2.1,"My manager is fine and my comp is competitive, but I'm not inspired by the direction. Neither strongly positive nor negative, honestly.",neutral,management_leadership+compensation_benefits
+EMP0054,IC5,Engineering,2020-10-27,2024-11-01,4.0,Certain voices consistently dominate meetings and leadership hasn't done anything about it.,negative,culture_inclusion
+EMP0055,IC4,Marketing,2019-08-15,2024-11-01,5.2,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0056,IC4,Design,2022-06-13,2024-11-01,2.4,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0057,M1,Design,2020-01-24,2024-11-01,4.8,Collaboration is performative. People nod in meetings and then do whatever they planned anyway.,negative,team_collaboration
+EMP0058,IC2,Design,2022-03-14,2024-11-01,2.6,Cross-team prioritization is a constant struggle. Nobody wants to deprioritize their own roadmap.,negative,team_collaboration
+EMP0059,M1,Customer Success,2020-08-29,2024-11-01,4.2,There's a real problem with silos. Teams hoard information and don't communicate until it's too late.,negative,team_collaboration
+EMP0060,M2,Marketing,2020-01-15,2024-11-01,4.8,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0061,M2,People & HR,2018-01-26,2024-11-01,6.8,There's a persistent pattern of underrepresented employees leaving and leadership doesn't address it.,negative,culture_inclusion
+EMP0062,IC3,Sales,2020-08-05,2024-11-01,4.2,I've raised a culture concern through the proper channels and received no follow-up.,negative,culture_inclusion
+EMP0063,M1,Finance,2020-08-12,2024-11-01,4.2,"The company is in a transitional phase and the culture feels unsettled. Not bad, just uncertain.",neutral,culture_inclusion
+EMP0064,IC5,Marketing,2022-08-14,2024-11-01,2.2,"Advancement seems to go to people who are well-networked, not people who perform. It doesn't feel merit-based.",negative,growth_development+culture_inclusion
+EMP0065,M1,Marketing,2019-12-15,2024-11-01,4.9,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0066,IC2,People & HR,2022-08-29,2024-11-01,2.2,The policy is good on paper but individual managers enforce it very differently.,neutral,work_life_balance
+EMP0067,IC3,Sales,2022-10-11,2024-11-01,2.1,The learning budget exists but I've never felt strongly encouraged to use it.,neutral,growth_development
+EMP0068,M2,Sales,2018-10-22,2024-11-01,6.0,There's internal competition rather than cooperation. It doesn't serve us well.,negative,team_collaboration
+EMP0069,M3,People & HR,2018-11-29,2024-11-01,5.9,Comp feels about market rate. I'm not complaining but there's no premium for the pace we work at.,neutral,compensation_benefits
+EMP0070,IC5,Product,2019-12-23,2024-11-01,4.9,The inclusion language is polished but the lived experience is very different.,negative,culture_inclusion
+EMP0071,IC4,Sales,2022-03-30,2024-11-01,2.6,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0072,M3,Product,2019-01-24,2024-11-01,5.8,"The pace here doesn't allow time for learning. Everything is execution, always.",negative,growth_development
+EMP0073,M3,Finance,2019-02-23,2024-11-01,5.7,This is the most inclusive team I've been on. I feel like I can bring my whole self to work.,positive,culture_inclusion
+EMP0074,IC4,Finance,2022-05-16,2024-11-01,2.5,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0075,IC4,Legal,2022-09-05,2024-11-01,2.2,Career paths are clearer in some functions than others. Mine is ambiguous.,neutral,growth_development
+EMP0076,M2,Customer Success,2018-10-22,2024-11-01,6.0,Balance is manageable but growth opportunities are slow to materialize. I'd trade some balance for more challenge.,neutral,work_life_balance+growth_development
+EMP0077,IC5,Customer Success,2021-06-24,2024-11-01,3.4,Direction changes constantly with no explanation. It's impossible to prioritize anything.,negative,management_leadership
+EMP0078,IC5,Marketing,2020-05-26,2024-11-01,4.4,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0079,IC2,People & HR,2023-07-27,2024-11-01,1.3,Cross-functional work flows well here. Other teams are responsive and easy to work with.,positive,team_collaboration
+EMP0080,M2,Product,2019-08-06,2024-11-01,5.2,There's a stated commitment to inclusion but I haven't seen it translate into structural changes.,neutral,culture_inclusion
+EMP0081,M2,Finance,2018-08-09,2024-11-01,6.2,"Advancement seems to go to people who are well-networked, not people who perform. It doesn't feel merit-based.",negative,growth_development+culture_inclusion
+EMP0082,M3,Finance,2021-05-09,2024-11-01,3.5,My comp hasn't kept up with inflation and conversations about it go nowhere.,negative,compensation_benefits
+EMP0083,IC4,Legal,2020-08-15,2024-11-01,4.2,I've seen the company course-correct quickly when something wasn't working. That takes maturity.,positive,culture_inclusion
+EMP0084,M2,People & HR,2020-12-14,2024-11-01,3.9,My manager has never once asked me about my career goals. I feel completely invisible.,negative,management_leadership
+EMP0085,M2,Engineering,2018-07-24,2024-11-01,6.3,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0086,M3,Design,2020-05-14,2024-11-01,4.5,We have strong rituals for alignment and rarely duplicate work or step on each other.,positive,team_collaboration
+EMP0087,M1,People & HR,2020-03-31,2024-11-01,4.6,Healthcare benefits are excellent — one of the best I've seen at any company.,positive,compensation_benefits
+EMP0088,M3,Product,2021-04-12,2024-11-01,3.6,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0089,IC2,Marketing,2020-09-09,2024-11-01,4.1,The flexibility and the culture of respect here make this job sustainable in a way I haven't experienced before.,positive,work_life_balance+culture_inclusion
+EMP0090,IC1,Marketing,2021-05-09,2024-11-01,3.5,My manager is a genuine advocate for my development. She proactively nominated me for a high-visibility project and the growth has been real.,positive,management_leadership+growth_development
+EMP0091,M3,Marketing,2017-06-19,2024-11-01,7.4,My manager gives me autonomy while still being available when I need support. That balance is hard to find.,positive,management_leadership
+EMP0092,IC3,Product,2022-02-08,2024-11-01,2.7,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0093,M2,Finance,2020-10-07,2024-11-01,4.1,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0094,IC5,Product,2019-01-11,2024-11-01,5.8,My immediate team is great but the broader culture is harder to read. It depends a lot on who you work with.,neutral,team_collaboration+culture_inclusion
+EMP0095,M1,Engineering,2019-05-21,2024-11-01,5.5,My manager is competent but not particularly invested in my development. I'm mostly self-directed.,neutral,management_leadership
+EMP0096,M2,Engineering,2019-02-18,2024-11-01,5.7,My manager proactively identified a stretch opportunity for me and backed me through it.,positive,growth_development
+EMP0097,M2,Design,2020-11-22,2024-11-01,3.9,"PTO exists in theory, but the actual workload makes it impossible to disconnect.",negative,work_life_balance
+EMP0098,M3,Legal,2018-10-12,2024-11-01,6.1,"I manage my own boundaries pretty well, but I can see how it would be harder for others.",neutral,work_life_balance
+EMP0099,IC2,Marketing,2022-10-12,2024-11-01,2.1,The bonus structure looks good on paper but the targets are set so high they're rarely achievable.,negative,compensation_benefits
+EMP0100,M1,Finance,2022-03-19,2024-11-01,2.6,Comp feels about market rate. I'm not complaining but there's no premium for the pace we work at.,neutral,compensation_benefits
+EMP0101,IC5,People & HR,2020-12-15,2024-11-01,3.9,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0102,IC4,Engineering,2022-11-17,2024-11-01,2.0,Senior leadership does a great job communicating the company direction. I always feel like I know where we're headed.,positive,management_leadership
+EMP0103,M3,Customer Success,2018-11-16,2024-11-01,6.0,"No promotions, no real raises, and no clarity on what it would take to change that. The investment feels very one-directional.",negative,growth_development+compensation_benefits
+EMP0104,IC4,Finance,2021-08-22,2024-11-01,3.2,My manager has never once asked me about my career goals. I feel completely invisible.,negative,management_leadership
+EMP0105,M2,People & HR,2018-10-17,2024-11-01,6.0,"I manage my own boundaries pretty well, but I can see how it would be harder for others.",neutral,work_life_balance
+EMP0106,IC4,Sales,2022-09-06,2024-11-01,2.2,I've watched external hires fill senior roles that internal candidates were clearly ready for.,negative,growth_development
+EMP0107,IC4,Design,2022-02-22,2024-11-01,2.7,Decisions feel arbitrary and top-down. We're rarely consulted even when changes directly affect us.,negative,management_leadership
+EMP0108,IC5,Legal,2022-04-21,2024-11-01,2.5,There's a culture of long hours that's never stated explicitly but is very much expected.,negative,work_life_balance
+EMP0109,IC1,Sales,2020-11-12,2024-11-01,4.0,Culture varies significantly by team. Org-wide initiatives feel disconnected from day-to-day experience.,neutral,culture_inclusion
+EMP0110,M3,Design,2020-10-23,2024-11-01,4.0,My comp hasn't kept up with inflation and conversations about it go nowhere.,negative,compensation_benefits
+EMP0111,M1,Customer Success,2021-05-04,2024-11-01,3.5,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0112,M2,Product,2019-02-14,2024-11-01,5.7,"The company walks the walk on DEI — it shows up in hiring, promotions, and how leaders behave.",positive,culture_inclusion
+EMP0113,IC5,Design,2022-05-22,2024-11-01,2.4,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0114,M2,Marketing,2019-05-10,2024-11-01,5.5,Direction changes constantly with no explanation. It's impossible to prioritize anything.,negative,management_leadership
+EMP0115,IC1,Sales,2021-06-02,2024-11-01,3.4,"No promotions, no real raises, and no clarity on what it would take to change that. The investment feels very one-directional.",negative,growth_development+compensation_benefits
+EMP0116,IC5,Marketing,2019-03-01,2024-11-01,5.7,My manager is one of the best I've had — always clear on expectations and genuinely invested in my growth.,positive,management_leadership
+EMP0117,IC1,Design,2022-07-19,2024-11-01,2.3,Work-life balance depends entirely on your team and what quarter it is. Officially it's fine.,neutral,work_life_balance
+EMP0118,IC5,Marketing,2018-11-26,2024-11-01,5.9,The values aren't just marketing copy — I see them reflected in how decisions get made.,positive,culture_inclusion
+EMP0119,IC5,Marketing,2019-05-12,2024-11-01,5.5,"Some teams are very collaborative, others are protective of their work. No consistent culture.",neutral,team_collaboration
+EMP0120,IC4,Product,2019-09-23,2024-11-01,5.1,My team is genuinely one of the most collaborative and supportive I've ever worked with.,positive,team_collaboration
+EMP0121,IC3,Engineering,2022-02-16,2024-11-01,2.7,The policy is good on paper but individual managers enforce it very differently.,neutral,work_life_balance
+EMP0122,M3,Product,2017-07-11,2024-11-01,7.3,The policy is good on paper but individual managers enforce it very differently.,neutral,work_life_balance
+EMP0123,IC2,Customer Success,2020-12-28,2024-11-01,3.8,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0124,IC1,Sales,2024-04-28,2024-11-01,0.5,My manager gives me autonomy while still being available when I need support. That balance is hard to find.,positive,management_leadership
+EMP0125,IC5,Engineering,2019-08-20,2024-11-01,5.2,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0126,IC5,Customer Success,2021-11-06,2024-11-01,3.0,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0127,M1,Customer Success,2020-01-31,2024-11-01,4.8,Tooling and processes for collaboration have improved but there's still friction.,neutral,team_collaboration
+EMP0128,M3,Finance,2019-10-09,2024-11-01,5.1,There's a serious lack of psychological safety on my team. Feedback flows one direction — down.,negative,management_leadership
+EMP0129,IC2,Customer Success,2022-07-31,2024-11-01,2.3,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0130,IC1,Legal,2021-02-24,2024-11-01,3.7,The inclusion language is polished but the lived experience is very different.,negative,culture_inclusion
+EMP0131,M1,Legal,2018-11-18,2024-11-01,6.0,The inclusion language is polished but the lived experience is very different.,negative,culture_inclusion
+EMP0132,IC3,Sales,2022-03-28,2024-11-01,2.6,The culture is good but starting to shift as the company grows. I hope it holds.,neutral,culture_inclusion
+EMP0133,IC3,Marketing,2022-02-09,2024-11-01,2.7,There's a stated commitment to inclusion but I haven't seen it translate into structural changes.,neutral,culture_inclusion
+EMP0134,M3,Product,2020-09-23,2024-11-01,4.1,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0135,IC5,Legal,2020-07-15,2024-11-01,4.3,There's internal competition rather than cooperation. It doesn't serve us well.,negative,team_collaboration
+EMP0136,IC3,Legal,2021-09-13,2024-11-01,3.1,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0137,IC5,Product,2020-07-16,2024-11-01,4.3,The flexible work policy is a genuine differentiator. I can structure my day around my life.,positive,work_life_balance
+EMP0138,IC5,Sales,2019-07-29,2024-11-01,5.3,"Some teams are very collaborative, others are protective of their work. No consistent culture.",neutral,team_collaboration
+EMP0139,M3,Legal,2019-06-15,2024-11-01,5.4,Raises exist but they're modest. Meaningful jumps only seem to happen with a promotion.,neutral,compensation_benefits
+EMP0140,IC4,People & HR,2019-06-13,2024-11-01,5.4,The total comp package is genuinely competitive. I benchmarked it and I'm fairly paid.,positive,compensation_benefits
+EMP0141,M3,People & HR,2017-06-07,2024-11-01,7.4,"The pace here doesn't allow time for learning. Everything is execution, always.",negative,growth_development
+EMP0142,M3,Design,2021-03-07,2024-11-01,3.7,The flexible work policy is a genuine differentiator. I can structure my day around my life.,positive,work_life_balance
+EMP0143,IC2,Customer Success,2021-05-24,2024-11-01,3.4,"No promotions, no real raises, and no clarity on what it would take to change that. The investment feels very one-directional.",negative,growth_development+compensation_benefits
+EMP0144,IC3,Finance,2023-06-07,2024-11-01,1.4,The policy is good on paper but individual managers enforce it very differently.,neutral,work_life_balance
+EMP0145,M1,Product,2018-08-04,2024-11-01,6.2,I've raised concerns about my workload three times and nothing has changed.,negative,work_life_balance
+EMP0146,IC1,Customer Success,2021-05-17,2024-11-01,3.5,I've never felt pressure to answer messages outside of work hours. The team respects boundaries.,positive,work_life_balance
+EMP0147,M2,Product,2021-04-30,2024-11-01,3.5,A few high performers are allowed to behave badly because of their output. It's corrosive.,negative,culture_inclusion
+EMP0148,IC5,Design,2022-09-14,2024-11-01,2.1,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0149,M2,People & HR,2021-01-23,2024-11-01,3.8,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0150,IC3,Design,2023-05-30,2024-11-01,1.4,The learning budget exists but I've never felt strongly encouraged to use it.,neutral,growth_development
+EMP0151,IC3,Customer Success,2022-07-20,2024-11-01,2.3,Work-life balance depends entirely on your team and what quarter it is. Officially it's fine.,neutral,work_life_balance
+EMP0152,IC5,Customer Success,2019-01-25,2024-11-01,5.8,Balance is manageable but growth opportunities are slow to materialize. I'd trade some balance for more challenge.,neutral,work_life_balance+growth_development
+EMP0153,M2,Sales,2018-01-04,2024-11-01,6.8,We have strong rituals for alignment and rarely duplicate work or step on each other.,positive,team_collaboration
+EMP0154,IC2,Customer Success,2023-01-06,2024-11-01,1.8,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0155,M2,Engineering,2020-05-04,2024-11-01,4.5,I've been promoted twice in three years and feel like my contributions are recognized.,positive,growth_development
+EMP0156,IC5,Customer Success,2021-07-29,2024-11-01,3.3,The learning budget exists but I've never felt strongly encouraged to use it.,neutral,growth_development
+EMP0157,IC3,Sales,2020-04-30,2024-11-01,4.5,People are genuinely curious and kind here. The culture is a real competitive advantage.,positive,culture_inclusion
+EMP0158,IC1,Customer Success,2021-08-03,2024-11-01,3.2,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0159,M2,People & HR,2020-11-23,2024-11-01,3.9,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0160,IC5,Legal,2021-12-11,2024-11-01,2.9,Healthcare benefits are excellent — one of the best I've seen at any company.,positive,compensation_benefits
+EMP0161,IC2,People & HR,2021-09-19,2024-11-01,3.1,"No promotions, no real raises, and no clarity on what it would take to change that. The investment feels very one-directional.",negative,growth_development+compensation_benefits
+EMP0162,M1,Finance,2021-11-13,2024-11-01,3.0,"Advancement seems to go to people who are well-networked, not people who perform. It doesn't feel merit-based.",negative,growth_development+culture_inclusion
+EMP0163,M3,Product,2019-04-28,2024-11-01,5.5,Direction changes constantly with no explanation. It's impossible to prioritize anything.,negative,management_leadership
+EMP0164,IC2,People & HR,2020-07-23,2024-11-01,4.3,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0165,IC4,People & HR,2019-09-23,2024-11-01,5.1,"I get to work on hard, novel problems every week. My skills are growing faster here than anywhere else.",positive,growth_development
+EMP0166,IC2,Finance,2023-07-24,2024-11-01,1.3,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0167,IC2,Product,2023-01-11,2024-11-01,1.8,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0168,M2,People & HR,2018-08-03,2024-11-01,6.3,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0169,M3,Product,2017-12-08,2024-11-01,6.9,Culture varies significantly by team. Org-wide initiatives feel disconnected from day-to-day experience.,neutral,culture_inclusion
+EMP0170,M3,Marketing,2018-11-23,2024-11-01,5.9,The culture has shifted noticeably since the last round of layoffs. Trust is low.,negative,culture_inclusion
+EMP0171,M1,People & HR,2022-01-12,2024-11-01,2.8,"My manager is fine and my comp is competitive, but I'm not inspired by the direction. Neither strongly positive nor negative, honestly.",neutral,management_leadership+compensation_benefits
+EMP0172,IC2,Customer Success,2020-08-17,2024-11-01,4.2,This is the most inclusive team I've been on. I feel like I can bring my whole self to work.,positive,culture_inclusion
+EMP0173,IC4,People & HR,2022-08-27,2024-11-01,2.2,My manager regularly takes credit for the team's work and it's demoralizing.,negative,management_leadership
+EMP0174,IC4,Marketing,2021-07-08,2024-11-01,3.3,There's a serious lack of psychological safety on my team. Feedback flows one direction — down.,negative,management_leadership
+EMP0175,IC3,Sales,2023-02-14,2024-11-01,1.7,The culture is good but starting to shift as the company grows. I hope it holds.,neutral,culture_inclusion
+EMP0176,IC1,Design,2022-10-30,2024-11-01,2.0,I haven't taken a real vacation in 18 months because the workload never lets up.,negative,work_life_balance
+EMP0177,IC5,Design,2022-07-28,2024-11-01,2.3,The values aren't just marketing copy — I see them reflected in how decisions get made.,positive,culture_inclusion
+EMP0178,M3,Product,2018-11-15,2024-11-01,6.0,A few high performers are allowed to behave badly because of their output. It's corrosive.,negative,culture_inclusion
+EMP0179,IC4,Legal,2019-11-29,2024-11-01,4.9,There's a clear leveling framework and I always know what I need to demonstrate to advance.,positive,growth_development
+EMP0180,M3,Sales,2017-10-12,2024-11-01,7.1,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0181,M2,Finance,2018-01-12,2024-11-01,6.8,The total comp package is genuinely competitive. I benchmarked it and I'm fairly paid.,positive,compensation_benefits
+EMP0182,M1,Product,2018-12-18,2024-11-01,5.9,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0183,M1,Legal,2020-03-27,2024-11-01,4.6,The bonus structure looks good on paper but the targets are set so high they're rarely achievable.,negative,compensation_benefits
+EMP0184,IC2,Finance,2020-05-29,2024-11-01,4.4,I have a lot of trust in the direction leadership is taking. Decisions feel thoughtful rather than reactive.,positive,management_leadership
+EMP0185,M2,Marketing,2019-05-08,2024-11-01,5.5,My comp hasn't kept up with inflation and conversations about it go nowhere.,negative,compensation_benefits
+EMP0186,IC2,Finance,2022-08-04,2024-11-01,2.2,"There are busy seasons where balance slips, but it tends to normalize. Not a dealbreaker.",neutral,work_life_balance
+EMP0187,IC2,Customer Success,2023-11-01,2024-11-01,1.0,My manager doesn't respect boundaries and the expectations for availability are unreasonable. It's affecting my health.,negative,management_leadership+work_life_balance
+EMP0188,IC3,People & HR,2020-09-24,2024-11-01,4.1,My skip-level is approachable and I feel comfortable raising concerns without fear.,positive,management_leadership
+EMP0189,M2,Product,2019-11-24,2024-11-01,4.9,"Equity was a selling point when I joined, but the timeline and vesting make it feel hollow now.",negative,compensation_benefits
+EMP0190,IC5,Engineering,2019-07-02,2024-11-01,5.3,Leadership actively role-models the values they espouse. That consistency builds real trust over time.,positive,management_leadership+culture_inclusion
+EMP0191,IC3,Marketing,2020-03-03,2024-11-01,4.7,"I manage my own boundaries pretty well, but I can see how it would be harder for others.",neutral,work_life_balance
+EMP0192,IC5,Product,2019-08-25,2024-11-01,5.2,My manager gives me autonomy while still being available when I need support. That balance is hard to find.,positive,management_leadership
+EMP0193,IC1,Legal,2021-06-03,2024-11-01,3.4,I haven't taken a real vacation in 18 months because the workload never lets up.,negative,work_life_balance
+EMP0194,IC5,Design,2018-12-04,2024-11-01,5.9,I haven't taken a real vacation in 18 months because the workload never lets up.,negative,work_life_balance
+EMP0195,IC3,Design,2020-09-04,2024-11-01,4.2,My manager doesn't respect boundaries and the expectations for availability are unreasonable. It's affecting my health.,negative,management_leadership+work_life_balance
+EMP0196,IC4,Product,2021-04-01,2024-11-01,3.6,"I manage my own boundaries pretty well, but I can see how it would be harder for others.",neutral,work_life_balance
+EMP0197,IC2,People & HR,2024-01-19,2024-11-01,0.8,The values aren't just marketing copy — I see them reflected in how decisions get made.,positive,culture_inclusion
+EMP0198,IC5,Product,2020-05-19,2024-11-01,4.5,My comp hasn't kept up with inflation and conversations about it go nowhere.,negative,compensation_benefits
+EMP0199,IC4,Sales,2020-06-26,2024-11-01,4.4,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0200,IC5,Customer Success,2022-08-11,2024-11-01,2.2,This is the most inclusive team I've been on. I feel like I can bring my whole self to work.,positive,culture_inclusion
+EMP0201,IC5,Marketing,2021-09-06,2024-11-01,3.2,I'm regularly pinged after 9pm by leadership and there's an implied expectation to respond immediately.,negative,work_life_balance
+EMP0202,IC1,Product,2022-01-18,2024-11-01,2.8,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0203,IC4,Legal,2020-07-21,2024-11-01,4.3,Work-life balance depends entirely on your team and what quarter it is. Officially it's fine.,neutral,work_life_balance
+EMP0204,IC1,Finance,2022-05-23,2024-11-01,2.4,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0205,M2,Finance,2017-11-25,2024-11-01,6.9,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0206,IC3,People & HR,2020-05-21,2024-11-01,4.5,Work-life balance depends entirely on your team and what quarter it is. Officially it's fine.,neutral,work_life_balance
+EMP0207,IC2,Finance,2022-12-24,2024-11-01,1.9,"The company is in a transitional phase and the culture feels unsettled. Not bad, just uncertain.",neutral,culture_inclusion
+EMP0208,M1,Sales,2021-02-17,2024-11-01,3.7,My immediate team is great but the broader culture is harder to read. It depends a lot on who you work with.,neutral,team_collaboration+culture_inclusion
+EMP0209,IC4,Product,2021-05-26,2024-11-01,3.4,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0210,IC2,Marketing,2023-07-11,2024-11-01,1.3,The flexibility and the culture of respect here make this job sustainable in a way I haven't experienced before.,positive,work_life_balance+culture_inclusion
+EMP0211,IC3,Product,2020-04-30,2024-11-01,4.5,Senior leadership is fairly removed from day-to-day realities. Not a problem but worth noting.,neutral,management_leadership
+EMP0212,M1,People & HR,2021-07-11,2024-11-01,3.3,Career paths are clearer in some functions than others. Mine is ambiguous.,neutral,growth_development
+EMP0213,IC1,Sales,2022-11-12,2024-11-01,2.0,Pay is acceptable but not exceptional. I stay for other reasons.,neutral,compensation_benefits
+EMP0214,M1,Engineering,2020-10-06,2024-11-01,4.1,Psychological safety is high on my team. We have real debates and nobody shuts people down.,positive,culture_inclusion
+EMP0215,M2,Legal,2019-04-15,2024-11-01,5.6,I've been in the same role for three years with no promotion conversation ever initiated.,negative,growth_development
+EMP0216,IC4,Customer Success,2021-07-22,2024-11-01,3.3,"The company is in a transitional phase and the culture feels unsettled. Not bad, just uncertain.",neutral,culture_inclusion
+EMP0217,M1,Product,2021-11-25,2024-11-01,2.9,"No promotions, no real raises, and no clarity on what it would take to change that. The investment feels very one-directional.",negative,growth_development+compensation_benefits
+EMP0218,M3,Customer Success,2018-06-13,2024-11-01,6.4,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0219,M2,Sales,2019-08-03,2024-11-01,5.3,The culture has shifted noticeably since the last round of layoffs. Trust is low.,negative,culture_inclusion
+EMP0220,IC2,People & HR,2022-06-30,2024-11-01,2.3,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0221,M1,Design,2021-12-01,2024-11-01,2.9,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0222,M2,Sales,2021-02-26,2024-11-01,3.7,"PTO exists in theory, but the actual workload makes it impossible to disconnect.",negative,work_life_balance
+EMP0223,M1,Finance,2021-08-28,2024-11-01,3.2,"The pace here doesn't allow time for learning. Everything is execution, always.",negative,growth_development
+EMP0224,IC2,Legal,2020-09-20,2024-11-01,4.1,Certain voices consistently dominate meetings and leadership hasn't done anything about it.,negative,culture_inclusion
+EMP0225,IC3,Sales,2022-08-26,2024-11-01,2.2,Cross-functional work flows well here. Other teams are responsive and easy to work with.,positive,team_collaboration
+EMP0226,IC3,Design,2023-06-02,2024-11-01,1.4,My manager gives me autonomy while still being available when I need support. That balance is hard to find.,positive,management_leadership
+EMP0227,IC1,Legal,2021-02-15,2024-11-01,3.7,People here celebrate each other's wins publicly and often. It creates real positive energy.,positive,team_collaboration
+EMP0228,IC3,Finance,2022-12-10,2024-11-01,1.9,Senior leadership does a great job communicating the company direction. I always feel like I know where we're headed.,positive,management_leadership
+EMP0229,IC1,Customer Success,2022-07-14,2024-11-01,2.3,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0230,M3,Sales,2020-01-28,2024-11-01,4.8,The pay process is completely opaque. I have no idea how decisions get made.,negative,compensation_benefits
+EMP0231,M3,People & HR,2018-10-19,2024-11-01,6.0,My manager has never once asked me about my career goals. I feel completely invisible.,negative,management_leadership
+EMP0232,IC3,Finance,2022-09-25,2024-11-01,2.1,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0233,M3,Engineering,2019-04-22,2024-11-01,5.5,"Advancement seems to go to people who are well-networked, not people who perform. It doesn't feel merit-based.",negative,growth_development+culture_inclusion
+EMP0234,IC5,Product,2022-05-25,2024-11-01,2.4,My manager regularly takes credit for the team's work and it's demoralizing.,negative,management_leadership
+EMP0235,IC2,Finance,2023-02-06,2024-11-01,1.7,A few high performers are allowed to behave badly because of their output. It's corrosive.,negative,culture_inclusion
+EMP0236,M2,Engineering,2019-01-24,2024-11-01,5.8,Culture varies significantly by team. Org-wide initiatives feel disconnected from day-to-day experience.,neutral,culture_inclusion
+EMP0237,IC1,Marketing,2023-01-19,2024-11-01,1.8,There are no real mentorship opportunities here. You're expected to figure it out on your own.,negative,growth_development
+EMP0238,IC3,Design,2023-08-21,2024-11-01,1.2,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0239,M3,Customer Success,2017-12-08,2024-11-01,6.9,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0240,IC3,Marketing,2020-10-10,2024-11-01,4.1,I discovered I'm paid significantly less than peers doing the same work. That's been demoralizing.,negative,compensation_benefits
+EMP0241,IC4,Sales,2021-09-02,2024-11-01,3.2,There's a clear leveling framework and I always know what I need to demonstrate to advance.,positive,growth_development
+EMP0242,IC2,Customer Success,2023-09-21,2024-11-01,1.1,There's a serious lack of psychological safety on my team. Feedback flows one direction — down.,negative,management_leadership
+EMP0243,IC4,Legal,2022-07-21,2024-11-01,2.3,I learn so much just from working alongside my teammates. The collaboration here accelerates my development in a way that's hard to quantify.,positive,team_collaboration+growth_development
+EMP0244,M2,Marketing,2020-10-30,2024-11-01,4.0,Leadership talks about psychological safety but punishes people who speak up. The hypocrisy is demoralizing.,negative,culture_inclusion+management_leadership
+EMP0245,IC1,Product,2022-08-25,2024-11-01,2.2,Poor cross-team coordination means everything is a fire drill. The constant urgency is exhausting.,negative,team_collaboration+work_life_balance
+EMP0246,IC5,People & HR,2022-10-10,2024-11-01,2.1,The flexibility and the culture of respect here make this job sustainable in a way I haven't experienced before.,positive,work_life_balance+culture_inclusion
+EMP0247,M1,Product,2021-08-16,2024-11-01,3.2,The company invests in learning — I've used the development budget every year without friction.,positive,growth_development
+EMP0248,M3,Customer Success,2017-11-05,2024-11-01,7.0,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0249,IC5,Engineering,2021-09-26,2024-11-01,3.1,My manager is a genuine advocate for my development. She proactively nominated me for a high-visibility project and the growth has been real.,positive,management_leadership+growth_development
+EMP0250,IC5,People & HR,2019-12-23,2024-11-01,4.9,Healthcare benefits are excellent — one of the best I've seen at any company.,positive,compensation_benefits
+EMP0251,IC4,Engineering,2021-10-03,2024-11-01,3.1,"I get to work on hard, novel problems every week. My skills are growing faster here than anywhere else.",positive,growth_development
+EMP0252,IC2,Sales,2022-04-13,2024-11-01,2.6,Raises exist but they're modest. Meaningful jumps only seem to happen with a promotion.,neutral,compensation_benefits
+EMP0253,IC3,People & HR,2021-01-25,2024-11-01,3.8,Leadership makes big promises during all-hands and then we never hear about them again.,negative,management_leadership
+EMP0254,M2,Product,2021-06-09,2024-11-01,3.4,Tooling and processes for collaboration have improved but there's still friction.,neutral,team_collaboration
+EMP0255,IC2,People & HR,2023-11-24,2024-11-01,0.9,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0256,IC3,Finance,2019-12-26,2024-11-01,4.9,Career paths are clearer in some functions than others. Mine is ambiguous.,neutral,growth_development
+EMP0257,IC5,Finance,2019-04-13,2024-11-01,5.6,The culture has shifted noticeably since the last round of layoffs. Trust is low.,negative,culture_inclusion
+EMP0258,M1,Finance,2019-07-01,2024-11-01,5.3,The inclusion language is polished but the lived experience is very different.,negative,culture_inclusion
+EMP0259,IC1,Customer Success,2024-02-17,2024-11-01,0.7,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0260,IC1,Finance,2021-06-11,2024-11-01,3.4,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0261,IC2,Customer Success,2021-02-15,2024-11-01,3.7,My workload is challenging but sustainable. I rarely feel overwhelmed.,positive,work_life_balance
+EMP0262,IC2,Marketing,2024-03-13,2024-11-01,0.6,The bonus structure looks good on paper but the targets are set so high they're rarely achievable.,negative,compensation_benefits
+EMP0263,IC5,Product,2021-05-28,2024-11-01,3.4,Leadership makes big promises during all-hands and then we never hear about them again.,negative,management_leadership
+EMP0264,IC4,Customer Success,2022-09-02,2024-11-01,2.2,The flexibility and the culture of respect here make this job sustainable in a way I haven't experienced before.,positive,work_life_balance+culture_inclusion
+EMP0265,IC2,Customer Success,2020-07-09,2024-11-01,4.3,There are no real mentorship opportunities here. You're expected to figure it out on your own.,negative,growth_development
+EMP0266,IC5,Product,2021-03-08,2024-11-01,3.7,"The pace here doesn't allow time for learning. Everything is execution, always.",negative,growth_development
+EMP0267,M1,Design,2019-07-10,2024-11-01,5.3,Cross-functional work flows well here. Other teams are responsive and easy to work with.,positive,team_collaboration
+EMP0268,IC1,Customer Success,2022-10-24,2024-11-01,2.0,Leadership communicates the big picture but the details often get lost by the time they reach my level.,neutral,management_leadership
+EMP0269,IC2,Product,2022-08-11,2024-11-01,2.2,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0270,M2,Finance,2018-08-28,2024-11-01,6.2,I've been promoted twice in three years and feel like my contributions are recognized.,positive,growth_development
+EMP0271,M3,Customer Success,2017-07-29,2024-11-01,7.3,"Advancement seems to go to people who are well-networked, not people who perform. It doesn't feel merit-based.",negative,growth_development+culture_inclusion
+EMP0272,IC3,Design,2021-06-04,2024-11-01,3.4,There's a stated commitment to inclusion but I haven't seen it translate into structural changes.,neutral,culture_inclusion
+EMP0273,IC3,Sales,2022-12-11,2024-11-01,1.9,Async-first culture means I can do deep work without constant interruptions.,positive,work_life_balance
+EMP0274,IC2,Sales,2022-12-09,2024-11-01,1.9,I've never felt pressure to answer messages outside of work hours. The team respects boundaries.,positive,work_life_balance
+EMP0275,IC2,Sales,2021-07-11,2024-11-01,3.3,Leadership communicates the big picture but the details often get lost by the time they reach my level.,neutral,management_leadership
+EMP0276,M1,Design,2019-03-19,2024-11-01,5.6,This is the most inclusive team I've been on. I feel like I can bring my whole self to work.,positive,culture_inclusion
+EMP0277,IC4,Sales,2020-02-25,2024-11-01,4.7,Benefits are solid but not what sets this place apart. The work itself does.,neutral,compensation_benefits
+EMP0278,M3,Sales,2020-01-06,2024-11-01,4.8,Staffing shortages mean the remaining team is spread impossibly thin. Burnout is rampant.,negative,work_life_balance
+EMP0279,IC1,Product,2023-12-14,2024-11-01,0.9,Tooling and processes for collaboration have improved but there's still friction.,neutral,team_collaboration
+EMP0280,M1,Design,2020-08-01,2024-11-01,4.3,The pay process is completely opaque. I have no idea how decisions get made.,negative,compensation_benefits
+EMP0281,IC2,People & HR,2022-07-22,2024-11-01,2.3,"The pay is fair and the culture backs it up — I feel valued in concrete ways, not just in words.",positive,compensation_benefits+culture_inclusion
+EMP0282,IC3,Marketing,2023-04-23,2024-11-01,1.5,Leadership has been transparent about the challenges we're facing and I appreciate the honesty.,positive,management_leadership
+EMP0283,IC3,Marketing,2022-01-06,2024-11-01,2.8,Cross-team prioritization is a constant struggle. Nobody wants to deprioritize their own roadmap.,negative,team_collaboration
+EMP0284,M3,Customer Success,2018-08-04,2024-11-01,6.2,A few high performers are allowed to behave badly because of their output. It's corrosive.,negative,culture_inclusion
+EMP0285,M3,Legal,2020-01-14,2024-11-01,4.8,People are genuinely curious and kind here. The culture is a real competitive advantage.,positive,culture_inclusion
+EMP0286,M3,Customer Success,2019-10-14,2024-11-01,5.1,The pay process is completely opaque. I have no idea how decisions get made.,negative,compensation_benefits
+EMP0287,M1,Sales,2020-02-11,2024-11-01,4.7,"I've had three managers in two years, so it's hard to evaluate management consistently.",neutral,management_leadership
+EMP0288,M1,Marketing,2019-04-09,2024-11-01,5.6,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0289,IC2,Sales,2023-08-16,2024-11-01,1.2,"PTO exists in theory, but the actual workload makes it impossible to disconnect.",negative,work_life_balance
+EMP0290,IC3,People & HR,2022-09-26,2024-11-01,2.1,The culture is good but starting to shift as the company grows. I hope it holds.,neutral,culture_inclusion
+EMP0291,IC3,Engineering,2021-12-25,2024-11-01,2.9,Decisions are made without consulting the people who will be most impacted by them.,negative,team_collaboration
+EMP0292,IC3,Legal,2022-01-05,2024-11-01,2.8,The bonus structure looks good on paper but the targets are set so high they're rarely achievable.,negative,compensation_benefits
+EMP0293,M1,Sales,2019-07-13,2024-11-01,5.3,I've watched external hires fill senior roles that internal candidates were clearly ready for.,negative,growth_development
+EMP0294,M3,Sales,2021-04-17,2024-11-01,3.5,Benefits are solid but not what sets this place apart. The work itself does.,neutral,compensation_benefits
+EMP0295,M3,Engineering,2019-11-25,2024-11-01,4.9,My manager has never once asked me about my career goals. I feel completely invisible.,negative,management_leadership
+EMP0296,IC1,Marketing,2021-07-25,2024-11-01,3.3,I've grown in my role but I'm starting to wonder if there's a ceiling.,neutral,growth_development
+EMP0297,IC4,Design,2023-03-08,2024-11-01,1.7,"Collaboration depends a lot on which team you're working with. Some are great, some are siloed.",neutral,team_collaboration
+EMP0298,M1,Customer Success,2020-01-10,2024-11-01,4.8,The 401k match and financial wellness perks are a real differentiator.,positive,compensation_benefits
+EMP0299,IC1,Customer Success,2020-11-17,2024-11-01,4.0,The company actually encourages people to take PTO and fully unplug. That's rare.,positive,work_life_balance
+EMP0300,M2,Legal,2020-02-14,2024-11-01,4.7,Leadership makes big promises during all-hands and then we never hear about them again.,negative,management_leadership
