@@ -13,7 +13,6 @@ The overall model accuracy was **79%**. The model did a better job classifying p
 Importantly, the precision score was better than recall for both positive and negative labels. This means, that when the model flags something as either positive or negative, it is right over 90% of the time. This is a signal we can trust and leadership would feel confident spending time following up with those flags. 
 
 Accuracy: 0.793
-
 Classification Report:
               precision    recall  f1-score   support
 
@@ -22,8 +21,8 @@ Classification Report:
     negative       0.93      0.85      0.89       119
 
     accuracy                           0.79       300
-   macro avg       0.78      0.78      0.77       300
-weighted avg       0.83      0.79      0.81       300
+    macro avg       0.78      0.78      0.77       300
+    weighted avg       0.83      0.79      0.81       300
 
 
 ![alt text](image.png)
